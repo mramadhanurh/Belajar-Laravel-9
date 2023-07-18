@@ -1,3 +1,4 @@
+<a href="/karyawan/create">Add Karyawan</a>
 <table border="1">
     <tr>
         <th>No</th>

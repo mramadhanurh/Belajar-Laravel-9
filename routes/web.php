@@ -23,3 +23,5 @@ Route::get('/about', function () {
 });
 
 Route::get('/karyawan', [KaryawanController::class, 'index']);
+Route::get('/karyawan/create', [KaryawanController::class, 'create']);
+Route::post('/karyawan/store', [KaryawanController::class, 'store']);
